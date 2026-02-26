@@ -2,134 +2,101 @@
 <html lang="en">
 <head>
     <meta name="viewport"
-    content="width=divice"-width,
-    initial-scale="1.0">
+    content="width=device"-width,
+initial-scale="1.0">
 
-    <style>
-       body{
-font-family:'Poopinsp',
-sans-serif;
--webkit-font-smoothing:antialiased;
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+    }
 
+    img {
+        max-width: 95%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 15px;
+        float: none !important;
+    }
 
-       }
-        
-       body {
-            background-color: #ffffff;
-            margin:0px;}
-         .top-img{
-            margin:0px auto;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-        }
-        
-        h1 {
-            border: 2px solid rgb(0, 0, 0);
-            padding: 20px;
-            width: fit-content;
-            margin:10px auto;
-            border-radius: 20px;
-            background-color: #8BA888;
-            text-align: center;
-            font-size:3vw ;
-        }
-        h3{
-            border:2px solid rgb(0, 0, 0);
-            padding:20px;
-            width:fit-content;
-            margin-right:auto !important;
-            border-radius:20px;
-            background-color: #8BA888;
-            text-align: left;
-            margin-left: 0 !important;
-        font-size:3vw ;
-        }
-        
-        img{
-           max-width:100%;
-            width:80%;
-            height:auto;
-            display:block;
-            margin:20px auto;
-        }
-        h4{
-            padding:20px;
-            width:fit-content;
-            margin:10px auto;
-            font-size:40px ;
-            border-radius:60px;
-            text-align: center;
-            background-color: #dcf1db;
-            box-shadow:0 6px rgba(11, 48, 10, 0.2);
-            font-size:28px;
-        }
-        
-        p{
-           font-size:20px;
-        font-size: 3vw;
-        }
+    h1, h3, h4 {
+        width: fit-content;
+        max-width: 85%;
+        margin: 15px auto;
+        padding: 15px;
+        text-align: center;
+        border-radius: 15px;
+    }
 
-footer {
-    background-color: #333; 
-    color: white; 
-    text-align: center; 
-    padding: 20px 0; 
-    width: 100%;
-    font-family: Arial, sans-serif;
-    border-top: 3px solid #8BA888; 
-}
+    h1, h3 {
+        background-color: #8BA888;
+        border: 2px solid #000;
+        font-size: 1.4rem;
+    }
 
-footer p {
-    margin: 5px 0;
-    font-size: 0.9rem;
-}
+    h4 {
+        background-color: #dcf1db;
+        font-size: 1.6rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+    }
 
-footer strong {
-    color: #8BA888; 
-}        
-        ul li{
-            font-size: 25px;
-            text-align:left;
-            font-size:3vw ;
-        }
-        a{
-            font-size:20px;
-            margin-right:50px;
-            margin-left:50px;
-            text-decoration:none;
-            border-radius:15px;
-            font-size: 3vw;
+    p, li {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        padding: 0 20px;
+        color: #333;
+    }
 
-        }
-        div{
-        text-align:center;
-        font-size: 3vw;
-        }
-        .header-links a:hover {
-        color:#8BA888;
-        font-size:3vw ;
-        }
+    .header-links {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .header-links a {
+        display: inline-block;
+        margin: 10px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        padding: 8px 15px;
+        border-radius: 10px;
+        background: #f0f0f0;
+    }
+
+    .exercise-tasks {
+        list-style-type: none;
+        padding: 0 20px;
+    }
+
+    .exercise-tasks li {
+        margin-bottom: 12px;
+        background: #f9f9f9;
+        padding: 12px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 30px 10px;
+        border-top: 5px solid #8BA888;
+        margin-top: 30px;
+    }
+
+    footer strong { 
+        color: #8BA888; 
+    }
+</style>
     
-.exercise-tasks {
-    list-style-type: none; 
-    padding: 10px;
-   
-    
-}
-
-.exercise-tasks li {
-    margin-bottom: 15px; 
-    font-size:1.1rem;
-    
-}
-
-
-.exercise-tasks input[type="checkbox"]:checked + label {
-    text-decoration: line-through;
-    color: #2e7d32;
-    opacity: 0.6;
-}
-
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A guide to living a healthy life for students</title>
@@ -151,16 +118,14 @@ class="bottom-content">
       margin:0;
       padding:0;
       style="text-align: center;">
-      <img src="healthy.jpg"width="800"
-      style="border-radius: 20px; font-size: 3vw;">
-      
+      <img src="healthy.jpg"
+      alt=Healthy Lifestyle">
    </div>
    <br>
 <h4>Examples of Healthy Meals</h4>
 <br>
 <img src="breakfast.jpg"
-style="float:right;width:300px;clear:right;
-margin-left:40px;font-size:3vw;">
+alt="breakfast">
 <h3>Healthy Breakfast For Students</h3>
 
     <ul>
@@ -256,6 +221,7 @@ style="float:right;width: 230px;clear:right;margin-left:11px;margin-right:50px;f
 </footer>
 
 </body>
+
 
 
 
